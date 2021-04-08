@@ -1,0 +1,86 @@
+div {
+  color: #761212;  
+  background-color: #761212;  
+  width: 330px;
+  height: 470px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px black;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.first {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+.second {
+  color: white;
+  font-family: arial;
+  text-shadow: 1px 1px 10px purple;
+  text-align: center;
+}  
+
+input {
+  transition: 0.40s;
+  -webkit-transition: 0.40s;
+  -moz-transition: 0.40s;
+  -o-transition: 0.40s;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+  font-family: verdana;
+}  
+
+a {
+  transition: 0.40s;
+  -webkit-transition: 0.40s;
+  -moz-transition: 0.40s;
+  -o-transition: 0.40s;
+  -ms-transition: 0.40s;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #51ff51;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 0px 1px 1px #01a05f;
+}
+
+a:hover {
+  transition: 0.40s;
+  -webkit-transition: 0.40s;
+  -moz-transition: 0.40s;
+  -o-transition: 0.40s;
+  -ms-transition: 0.40s;
+  background-color: #1ebd06;
+}
+
+a:active {
+  transition: 0.10s;
+  -webkit-transition: 0.10s;
+  -moz-transition: 0.10s;
+  -o-transition: 0.10s;
+  font-size: 23px;
+}
+
+input:focus {
+  transition: 0.40s;
+  -webkit-transition: 0.40s;
+  -moz-transition: 0.40s;
+  -o-transition: 0.40s;
+  background-color: #65bcff;
+}

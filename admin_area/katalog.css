@@ -1,0 +1,171 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Nunito+Sans|Nunito:800|Pacifico');
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Nunito', sans-serif;
+}
+
+h4 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+p1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.list-group {
+  display: inline-block;
+  margin: 1em;
+  width: 300px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.list-group-item {
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+
+.purple-bg {
+  background: #6a3093;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a044ff, #6a3093);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blue-bg {
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00d2ff, #928dab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00d2ff, #928dab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+.custom-button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3em;
+  font-weight: 800;
+  background: #f7971e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7971e, #ffd200);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 50%;
+  margin-top: -32px;
+  width: 35%;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:hover {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  transform: scale(1.1);
+  transition: .3s ease-out;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 480px) {
+  .row {
+    padding-bottom: 0px !important;
+  }
+    .custom-button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+    background: #f7971e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7971e, #ffd200);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left:;
+    margin-top: -30px;
+    width: 30%;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .row {
+    padding-bottom: 0px !important;
+  }
+  .list-group {
+    display: ;
+    margin: 0 auto;
+    width: 33%;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  }
+  .list-group-item {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .list-group-item.active,
+  .list-group-item.active:hover,
+  .list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .purple-bg {
+    background-color: #673ab7;
+  }
+  .blue-bg {
+    background-color: #039be5;
+  }
+
+  .white-bg {
+    background-color: rgb(255, 255, 255);
+    padding: 2em 0;
+    width: 100%;
+  }
+
+  .custom-button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    background: #f7971e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7971e, #ffd200);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: ;
+    margin-top: -30px;
+    width: 100px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
