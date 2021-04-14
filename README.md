@@ -18,9 +18,11 @@ E-commerce "SEVERIN". It’s one great and exciting project. Perfect! (HTML, CSS
 ![a7](https://user-images.githubusercontent.com/81822988/114771568-03761b00-9d6d-11eb-8833-07477aa08176.png)
 
 ![a8](https://user-images.githubusercontent.com/81822988/114771560-01ac5780-9d6d-11eb-83c9-4bdf51db9914.png)
-
+****
+Functionality table:
 ![a9](https://user-images.githubusercontent.com/81822988/114771555-007b2a80-9d6d-11eb-95d4-de24b63450b7.png)
-
+****
+Data base:
 ![a10](https://user-images.githubusercontent.com/81822988/114771553-ff49fd80-9d6c-11eb-8ec7-45ec340433db.png)
 ****
 
